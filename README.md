@@ -32,3 +32,6 @@ The model fits a straight line (best-fit line) through the data points that mini
 ### Multiple Linear Regression
 
 Multiple Linear Regression extends the idea of simple linear regression by considering two or more independent variables to predict the dependent variable. It models the relationship as a linear combination of all the predictors.
+
+### Conclusion
+In conclusion, both Simple Linear Regression and Multiple Linear Regression provide valuable insights into predicting house prices in Melbourne. While simple regression offers a clear understanding of how a single feature affects the price, multiple regression gives a more comprehensive and accurate model by considering multiple influencing factors. The multiple regression model, though more complex, better reflects the real-world dynamics of the housing market. This approach highlights the importance of using diverse factors for robust price predictions.
