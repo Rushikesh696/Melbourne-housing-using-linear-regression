@@ -3,14 +3,14 @@
 - The real estate market is one of the most dynamic and valuable sectors in any economy. In Melbourne, understanding the factors that influence house prices can help buyers, sellers, investors, and policymakers make informed decisions. The goal of this project is to build a predictive model that can estimate the price of houses in Melbourne based on various features using Linear Regression techniques.
 ### Project Overview
 - The project involves applying simple and multiple linear regression to predict house prices based on features such as the number of rooms, location, building area, land size, and more. The Melbourne Housing dataset contains detailed information on house sales across Melbourne, Australia.
-**Data Cleaning**
+### Data Cleaning
 Handle missing values: drop or impute (df.dropna() / df.fillna())
 
 Remove irrelevant or redundant columns (e.g., Address, Method, SellerG)
 
 Convert categorical variables using one-hot encoding if necessary.
 
-**Exploratory Data Analysis (EDA)**
+### Exploratory Data Analysis (EDA)
 
 Visualize relationships using:
 
@@ -22,14 +22,13 @@ Histograms and boxplots for distributions and outliers
 
 Understand which variables are most correlated with Price
 
-**Simple Linear Regression**
+### Simple Linear Regression
 
 The goal is to predict the house price (Price) based on a single feature, such as the number of rooms.
 
 For example, you might examine how an increase in the number of rooms affects the price of a house.
 
 The model fits a straight line (best-fit line) through the data points that minimizes the difference between predicted and actual prices
-
-**Multiple Linear Regression**
+### Multiple Linear Regression
 
 Multiple Linear Regression extends the idea of simple linear regression by considering two or more independent variables to predict the dependent variable. It models the relationship as a linear combination of all the predictors.
